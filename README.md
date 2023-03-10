@@ -1,5 +1,4 @@
-# Chat-Bot
-# Chat-Bot
+# Chat-Bot #OpenAI 
 
 This code sets up an Express server that uses the OpenAI API to create a conversational bot. The server listens for requests on port 5000, and responds with a message when the root endpoint is accessed. When a POST request is made to the root endpoint, the server takes the user's input prompt and uses it as a basis to generate a response using OpenAI's text-davinci-003 model. The response is then sent back to the client as a JSON object.
 
